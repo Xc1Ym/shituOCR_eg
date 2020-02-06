@@ -81,5 +81,10 @@ namespace shitu_eg
         {
             MessageBox.Show("版本：0.3\n制作：玉明\n","关于",MessageBoxButtons.OK);
         }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

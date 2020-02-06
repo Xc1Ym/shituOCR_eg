@@ -92,9 +92,11 @@
             // textBox1
             // 
             this.textBox1.Location = new System.Drawing.Point(144, 297);
+            this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(292, 21);
+            this.textBox1.Size = new System.Drawing.Size(292, 52);
             this.textBox1.TabIndex = 4;
+            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // Form1
             // 
