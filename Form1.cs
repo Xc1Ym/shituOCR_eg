@@ -79,7 +79,7 @@ namespace shitu_eg
 
         private void toolStripMenuItem2_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("版本：0.3\n制作：玉明\n","关于",MessageBoxButtons.OK);
+            MessageBox.Show("版本：0.3.4\n制作：玉明\n","关于",MessageBoxButtons.OK);
         }
 
         private void textBox1_TextChanged(object sender, EventArgs e)
